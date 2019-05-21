@@ -1,0 +1,594 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<script type="text/javascript" scr="layui/layui.js" ></script>
+	<script type="text/javascript">
+		
+	</script>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.dv{
+			width: 80%;
+			height: 200px;
+			margin: 0 auto;
+		}
+		.banner{
+			height: 60px;
+			width: 100%;
+			background-color:black;
+		} 
+		.banner #bzuo{
+			height: 55px;
+			width: 250px;
+			background-image: url(layui/images/bailu/logo.png);
+			background-repeat: no-repeat;
+			background-size: 135px;
+			background-position: 80px 10px;
+		}
+		.banner #bzuo h5{
+			display: none;
+		}
+		
+		.banner .zhong{
+			text-align: center;
+		}
+		.banner .zhong ul{
+			text-align: center;
+			width: 100%
+		}
+		.banner .zhong ul li{
+			text-align: center;
+			color: white;
+			margin-left: 12px;
+			line-height: 60px;
+			font-size: 14px;
+			display: inline-block;
+		}
+		.lunbo{
+			
+		}
+		.lunbo img{
+			
+		}
+		.lunbo2{
+			margin: 0 auto;
+			width: 80%;
+			
+		}
+		.lunbo2 h1{
+			
+			width: 300px;
+			padding: 0 0 0 22px;
+			border-left: 5px solid deepskyblue;
+			margin-bottom: 50px;
+			padding: 0 50px;
+		}
+		.lunbo2 .tu{
+			
+			background-color: #EEEEEE;
+		}
+		.lunbo2 .tu .tupian{
+			height: 660px;
+			width: 60%;
+			margin: 0 auto;
+			background-image: url(layui/images/bailu/engine1.png);	
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+		.shan1{
+			width: 80%;
+			margin: 0 auto;
+		}
+		.shan1 .kuang{
+			text-align: center;
+			box-sizing: border-box;
+			margin-bottom: 5px;
+			
+		}
+		
+		.shan1 .kuang div{
+			overflow: hidden;
+			height: 400px;
+		}
+		.shan1 .kuang div img{
+			width: 100%;
+			display: inline-block;
+		}
+		.shan1 .kuang div:nth-child(1){
+			
+			height: 400px;
+			
+		}
+		.shan1 .kuang div:nth-child(2){
+			
+			height: 400px;
+			
+		}
+		.shan1 .kuang div:nth-child(3){
+			
+			height: 400px;
+		}
+		.footer{
+			width: 100%;
+			height: 500px;
+			border-right-color: #737383;
+			position:absolute;
+		}
+		@media (max-width: 1200px) {
+		 	.banner #bzuo {
+		 		color: white;
+			    background-image: none;
+				line-height: 60px;
+				margin-left: 10px;
+			}
+			.banner #bzuo h5{
+				display: block;
+			}
+			.banner .zhong{
+				display: none;
+			}
+		}
+		@media (min-width: 800px)and (max-width: 990px){
+			.shan1 .kuang div:nth-child(1){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div:nth-child(2){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+			}
+			.shan1 .kuang div:nth-child(3){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div img{
+				width: 100%;
+				display: inline-block;
+			}
+			
+		}
+		@media (min-width: 0px)and (max-width: 800px)  {
+		 	
+			.banner .zhong{
+				display: none;
+			}
+			.lunbo2 h1{
+				display: none;
+			}
+			.lunbo2 .tu{
+				margin-top: 20px;
+				background-color:white;
+			}
+			.lunbo2 .tu .tupian{
+				height: 400px;
+				width: 90%;
+				margin: 0 auto;
+				background-image: url(layui/images/bailu/qiehuan.png);
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+			}
+			.shan1 .kuang div:nth-child(1){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div:nth-child(2){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+			}
+			.shan1 .kuang div:nth-child(3){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div img{
+				width: 100%;
+				display: inline-block;
+			}
+			
+			
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="herder layui-fluid" style="width: 100%;padding: 0;">
+		<div class="banner layui-row">
+			<div id="bzuo" class="layui-col-md3 layui-col-xs4"><h5>白鹭科技</h5></div>
+			<div class="zhong layui-col-md7 layui-col-xs4">
+				<ul>
+					<li>首页</li>
+					<li>产品</li>
+					<li>解决方案</li>
+					<li>开发者中心</li>
+					<li>案例</li>
+					<li>众包平台</li>
+					<li>教育</li>
+					<li>区块链实验室</li>
+					<li>社区</li>
+					<li>关于我们</li>
+				</ul>
+			</div>
+			<div class="class layui-col-md2 layui-col-xs4" style="height: 60px;"></div>
+		</div>
+	</div>
+	<div class="lunbo">
+		<img style="height: 328px;width: 100%;" src="layui/images/bailu/kv1.jpg"/>
+	</div>
+	<div class="lunbo2">
+		<h1>白鹭引擎</h1>
+		<div class="tu">
+			<div class="tupian"></div>
+		</div>
+	</div>
+	<div class="layui-fluid shan1">
+		<div class="wenzi">
+			<h1 style="margin-left: 20px;margin-bottom: 20px;">案例推荐</h1>
+		</div>
+		<div class="kuang layui-row layui-col-space10"> 
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5bae0283c104d.jpg"/></div>
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5c985bcdb3dff.png"/></div>
+			<div class="layui-col-md4 "><img src="layui/images/bailu/5bae02b9c85ac.jpg"/></div>
+		
+		
+			
+		</div>
+	</div>
+	<div class="layui-fluid shan1">
+		<div class="wenzi">
+			<h1 style="margin-left: 20px;margin-bottom: 20px;">新闻动态</h1>
+		</div>
+		<div class="kuang layui-row layui-col-space10"> 
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5c74a090a4ffe.jpg"/></div>
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5be01d20652c8.png"/></div>
+			<div class="layui-col-md4 "><img src="layui/images/bailu/5c2efbeb46f9a.jpg"/></div>
+		
+		
+			
+		</div>
+	</div>
+	<div class="layui-fluid shan1">
+		<div class="wenzi">
+			<h1 style="margin-left: 20px;margin-bottom: 20px;">技术博客</h1>
+		</div>
+		<div class="kuang layui-row layui-col-space10"> 
+			<div class="layui-col-md6" ><img src="layui/images/bailu/5caafdfa816e0.jpg"/></div>
+			<div class="layui-col-md6 " ><img src="layui/images/bailu/5caafd87e59ee.jpg"/></div>
+			
+		</div>
+	</div>
+	<div class="footer">
+		
+	</div>
+	<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+	
+  	<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  	<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+	
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<script type="text/javascript" scr="layui/layui.js" ></script>
+	<script type="text/javascript">
+		
+	</script>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.dv{
+			width: 80%;
+			height: 200px;
+			margin: 0 auto;
+		}
+		.banner{
+			height: 60px;
+			width: 100%;
+			background-color:black;
+		} 
+		.banner #bzuo{
+			height: 55px;
+			width: 250px;
+			background-image: url(layui/images/bailu/logo.png);
+			background-repeat: no-repeat;
+			background-size: 135px;
+			background-position: 80px 10px;
+		}
+		.banner #bzuo h5{
+			display: none;
+		}
+		
+		.banner .zhong{
+			text-align: center;
+		}
+		.banner .zhong ul{
+			text-align: center;
+			width: 100%
+		}
+		.banner .zhong ul li{
+			text-align: center;
+			color: white;
+			margin-left: 12px;
+			line-height: 60px;
+			font-size: 14px;
+			display: inline-block;
+		}
+		.lunbo{
+			
+		}
+		.lunbo img{
+			
+		}
+		.lunbo2{
+			margin: 0 auto;
+			width: 80%;
+			
+		}
+		.lunbo2 h1{
+			
+			width: 300px;
+			padding: 0 0 0 22px;
+			border-left: 5px solid deepskyblue;
+			margin-bottom: 50px;
+			padding: 0 50px;
+		}
+		.lunbo2 .tu{
+			
+			background-color: #EEEEEE;
+		}
+		.lunbo2 .tu .tupian{
+			height: 660px;
+			width: 60%;
+			margin: 0 auto;
+			background-image: url(layui/images/bailu/engine1.png);	
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+		.shan1{
+			width: 80%;
+			margin: 0 auto;
+		}
+		.shan1 .kuang{
+			text-align: center;
+			box-sizing: border-box;
+			margin-bottom: 5px;
+			
+		}
+		
+		.shan1 .kuang div{
+			overflow: hidden;
+			height: 400px;
+		}
+		.shan1 .kuang div img{
+			width: 100%;
+			display: inline-block;
+		}
+		.shan1 .kuang div:nth-child(1){
+			
+			height: 400px;
+			
+		}
+		.shan1 .kuang div:nth-child(2){
+			
+			height: 400px;
+			
+		}
+		.shan1 .kuang div:nth-child(3){
+			
+			height: 400px;
+		}
+		.footer{
+			width: 100%;
+			height: 500px;
+			border-right-color: #737383;
+			position:absolute;
+		}
+		@media (max-width: 1200px) {
+		 	.banner #bzuo {
+		 		color: white;
+			    background-image: none;
+				line-height: 60px;
+				margin-left: 10px;
+			}
+			.banner #bzuo h5{
+				display: block;
+			}
+			.banner .zhong{
+				display: none;
+			}
+		}
+		@media (min-width: 800px)and (max-width: 990px){
+			.shan1 .kuang div:nth-child(1){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div:nth-child(2){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+			}
+			.shan1 .kuang div:nth-child(3){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div img{
+				width: 100%;
+				display: inline-block;
+			}
+			
+		}
+		@media (min-width: 0px)and (max-width: 800px)  {
+		 	
+			.banner .zhong{
+				display: none;
+			}
+			.lunbo2 h1{
+				display: none;
+			}
+			.lunbo2 .tu{
+				margin-top: 20px;
+				background-color:white;
+			}
+			.lunbo2 .tu .tupian{
+				height: 400px;
+				width: 90%;
+				margin: 0 auto;
+				background-image: url(layui/images/bailu/qiehuan.png);
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+			}
+			.shan1 .kuang div:nth-child(1){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div:nth-child(2){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+			}
+			.shan1 .kuang div:nth-child(3){
+				width: 100%;
+				height: 280px;
+				overflow: hidden;
+				margin-bottom: 20px;
+				border-radius: 15px;
+
+			}
+			.shan1 .kuang div img{
+				width: 100%;
+				display: inline-block;
+			}
+			
+			
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="herder layui-fluid" style="width: 100%;padding: 0;">
+		<div class="banner layui-row">
+			<div id="bzuo" class="layui-col-md3 layui-col-xs4"><h5>白鹭科技</h5></div>
+			<div class="zhong layui-col-md7 layui-col-xs4">
+				<ul>
+					<li>首页</li>
+					<li>产品</li>
+					<li>解决方案</li>
+					<li>开发者中心</li>
+					<li>案例</li>
+					<li>众包平台</li>
+					<li>教育</li>
+					<li>区块链实验室</li>
+					<li>社区</li>
+					<li>关于我们</li>
+				</ul>
+			</div>
+			<div class="class layui-col-md2 layui-col-xs4" style="height: 60px;"></div>
+		</div>
+	</div>
+	<div class="lunbo">
+		<img style="height: 328px;width: 100%;" src="layui/images/bailu/kv1.jpg"/>
+	</div>
+	<div class="lunbo2">
+		<h1>白鹭引擎</h1>
+		<div class="tu">
+			<div class="tupian"></div>
+		</div>
+	</div>
+	<div class="layui-fluid shan1">
+		<div class="wenzi">
+			<h1 style="margin-left: 20px;margin-bottom: 20px;">案例推荐</h1>
+		</div>
+		<div class="kuang layui-row layui-col-space10"> 
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5bae0283c104d.jpg"/></div>
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5c985bcdb3dff.png"/></div>
+			<div class="layui-col-md4 "><img src="layui/images/bailu/5bae02b9c85ac.jpg"/></div>
+		
+		
+			
+		</div>
+	</div>
+	<div class="layui-fluid shan1">
+		<div class="wenzi">
+			<h1 style="margin-left: 20px;margin-bottom: 20px;">新闻动态</h1>
+		</div>
+		<div class="kuang layui-row layui-col-space10"> 
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5c74a090a4ffe.jpg"/></div>
+			<div class="layui-col-md4 " ><img src="layui/images/bailu/5be01d20652c8.png"/></div>
+			<div class="layui-col-md4 "><img src="layui/images/bailu/5c2efbeb46f9a.jpg"/></div>
+		
+		
+			
+		</div>
+	</div>
+	<div class="layui-fluid shan1">
+		<div class="wenzi">
+			<h1 style="margin-left: 20px;margin-bottom: 20px;">技术博客</h1>
+		</div>
+		<div class="kuang layui-row layui-col-space10"> 
+			<div class="layui-col-md6" ><img src="layui/images/bailu/5caafdfa816e0.jpg"/></div>
+			<div class="layui-col-md6 " ><img src="layui/images/bailu/5caafd87e59ee.jpg"/></div>
+			
+		</div>
+	</div>
+	<div class="footer">
+		
+	</div>
+	<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+	
+  	<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  	<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+	
+</body>
+>>>>>>> 66d7d586b3042f110b83a214c2794fec2c4e8ff5
+</html>
